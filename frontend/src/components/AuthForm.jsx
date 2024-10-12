@@ -4,7 +4,6 @@ import classes from "./AuthForm.module.css";
 
 function AuthForm() {
   const [searchParams] = useSearchParams();
-
   const isLogin = searchParams.get("mode") === "login";
   return (
     <>
