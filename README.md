@@ -4,3 +4,4 @@
 1. How Authentication Works.
 2. Working With Query Parameters.
 3. Implementing Auth Action.
+4. Validating User Input & Outputting Validation Errors.
