@@ -17,7 +17,7 @@ import Authentication, {
   action as authAction,
 } from "./pages/Authentication.jsx";
 import { action as logoutAction } from "./pages/Logout.jsx";
-import { checkAuthLoader, loader as tokenLoader } from "./util/auth.js";
+import { checkAuthLoader, tokenLoader } from "./util/auth.js";
 
 const router = createBrowserRouter([
   {
